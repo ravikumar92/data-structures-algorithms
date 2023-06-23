@@ -18,7 +18,6 @@ class Solution:
 
         while left <= right:
             mid = int((left + right) /2)
-            print(f'mid', mid)
             if letters[mid] == target:
                 left = mid + 1
             elif letters[mid] < target:
